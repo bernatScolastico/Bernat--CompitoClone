@@ -1,0 +1,30 @@
+    4  cd niceTeam/
+    5  git init
+    6  git config user.name "bernatScolastico"
+    7  git cofig user.email "bernat.tommaso@itismeucci.com"
+    8  git config user.email "bernat.tommaso@itismeucci.com"
+    9  git push https://github.com/bernatScolastico/Verifica.git
+   10  git log
+   11  git clone 
+   12  cd Desktop/
+   13  mkdir Verifica2/
+   14  cd Verifica2/
+   15  git clone https://github.com/sena-meucci/progettoStampa.git
+   16  git config user.name "bernatScolastico"
+   17  ls
+   18  cd progettoStampa/
+   19  git config user.name "bernatScolastico"
+   20  git config user.email "bernat.tommaso@itismeucci.com"
+   21  git commit -a -m "inserito nome"
+   22  git log
+   23  git branch BugFix
+   24  git checkout BugFix
+   25  git commit -a -m "errore risolto in stampa"
+   26  git log
+   27  git checkout master
+   28  git merge "BugFIx"
+   29  git merge "BugFix"
+   30  git log
+   31  git branch -d "BugFix"
+   32  git log
+   33  history 30 > comandi.txt
